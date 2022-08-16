@@ -12,6 +12,7 @@ export const QUERY = gql`
     video: video(id: $id) {
       id
       url
+      imageUrl
       title
       description
       createdAt
@@ -24,6 +25,7 @@ const UPDATE_VIDEO_MUTATION = gql`
     updateVideo(id: $id, input: $input) {
       id
       url
+      imageUrl
       title
       description
       createdAt

@@ -17,7 +17,7 @@ const VideoEmbed = ({ width = 560, height = 315, video }) => {
           allowFullScreen
         ></iframe>
       ) : (
-        <div>Video url ${video.url} is not supported</div>
+        <div>Video url {video.url} is not supported</div>
       )}
     </div>
   )
