@@ -7,7 +7,7 @@ import { useCurrentUser } from 'src/helpers/hooks'
 
 function NavItem({ to = null, onClick = null, children }) {
   const location = useLocation()
-  const active = location === to
+  const active = location.pathname === to
   return (
     <li className={classnames('mr-4 inline text-xl', { 'font-bold': active })}>
       {to ? (
