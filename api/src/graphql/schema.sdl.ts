@@ -17,6 +17,11 @@ export const schema = gql`
     Thinking
     ThumbsUp
     ThumbsDown
+    Partying
+    Monocle
+    Nerdy
+    Sunglasses
+    Halo
   }
 
   type User {

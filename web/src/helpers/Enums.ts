@@ -16,6 +16,11 @@ enum ReactionType {
   Thinking = 'Thinking',
   ThumbsUp = 'ThumbsUp',
   ThumbsDown = 'ThumbsDown',
+  Partying = 'Partying',
+  Monocle = 'Monocle',
+  Nerdy = 'Nerdy',
+  Sunglasses = 'Sunglasses',
+  Halo = 'Halo',
 }
 
 export { ReactionType }
