@@ -10,6 +10,7 @@ export const QUERY = gql`
     videos {
       id
       url
+      imageUrl
       title
       description
       user {
