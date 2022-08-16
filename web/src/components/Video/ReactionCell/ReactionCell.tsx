@@ -5,8 +5,8 @@ import type { CellSuccessProps, CellFailureProps } from '@redwoodjs/web'
 import Video from 'src/components/Video/Video'
 
 export const QUERY = gql`
-  query FindVideoById($id: Int!) {
-    video: video(id: $id) {
+  query FindVideoByType($type: String!) {
+    video: video(type: $type) {
       id
       url
       imageUrl

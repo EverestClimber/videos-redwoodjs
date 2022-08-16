@@ -61,6 +61,7 @@ const Video = ({ video }) => {
     <div>
       <div className="text-xl">{video.title}</div>
       <VideoEmbed video={video} />
+      <div>Image url {video.imageUrl}</div>
       <div>{video.description}</div>
       <div className="text-xs">
         Posted by {video.user.email} on <Time datetime={video.createdAt} />

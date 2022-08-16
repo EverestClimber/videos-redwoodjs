@@ -17,6 +17,14 @@ export const QUERY = gql`
         id
         email
       }
+      reactions {
+        id
+        type
+        user {
+          id
+          email
+        }
+      }
     }
   }
 `
